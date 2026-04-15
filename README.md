@@ -12,7 +12,8 @@
 👉 📩 Contact Now for Full Version  
 💰 Launch your own poker business  
 💰 Start your poker platform today  
----
+💰 Launch your poker business today  
+💰 Start earning with your own poker platform  
 
 ## 🎥 Live Demo | 演示 | 演示
 
