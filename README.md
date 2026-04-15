@@ -10,7 +10,8 @@
 
 👉 🚀 Live Demo Available  
 👉 📩 Contact Now for Full Version  
-
+💰 Launch your own poker business  
+💰 Start your poker platform today  
 ---
 
 ## 🎥 Live Demo | 演示 | 演示
@@ -116,8 +117,13 @@ Watch real gameplay below 👇
 - ⚡ Real-time Gameplay（实时对局）  
 - 🌐 Online Server（在线服务器）  
 - 🔧 Customizable（可二次开发）  
+![Stars](https://img.shields.io/github/stars/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro)
+## 📈 Use Cases
 
-
+- Build poker platform  
+- Game development  
+- Commercial deployment  
 
 
 
