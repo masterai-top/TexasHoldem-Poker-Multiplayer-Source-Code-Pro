@@ -89,8 +89,8 @@ Watch real gameplay below 👇
 👉 获取演示 / 完整版 / 报价
 👉 獲取演示 / 完整版 / 報價
 
-📲 Telegram: your-telegram
-📧 Email: your-email
+📲 Telegram: @xuzongbin001
+
 
 
 ## ✨ 核心亮点
