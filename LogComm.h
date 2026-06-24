@@ -24,15 +24,5 @@ using namespace tars;
 //配置信息
 #define FDLOG_CONFIG_INFO (FDLOG("config_info") << "|")
 
-//用户注册日志
-// #define ACCOUNT_REG_LOG_TOPIC "account_reg_log"
-// #define FDLOG_ACCOUNT_REG_LOG (FDLOG("account_reg_log") << "|")
-
-//
-// #define FDLOG_INIT_FORMAT(x, y, z) (TarsTimeLogger::getInstance()->initFormatWithType<LogByMinute>(x, y, z))
-// #define FDLOG_ACCOUNT_REG_LOG_FORMAT (FDLOG_INIT_FORMAT("account_reg_log", "%Y%m%d%H%M", 5))
-
-//接口性能边界值
-#define COST_MS 100
-
 #endif
+
