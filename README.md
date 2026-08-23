@@ -1,8 +1,5 @@
 # 🃏  德州扑克完整解决方案 |德州私人局| 德州源碼|德州撲克|德州俱樂部|德州撲克完整解決方案 |德州游戏源码|Mã nguồn Poker |Texas Holdem Poker Complete Solution  
 
-💡 Build your own poker platform in minutes  
-💡 快速搭建你的德州扑克平台  
-💡 快速建立你的德州撲克平台  
 
 🔥 Online Multiplayer Poker System  
 🔥 Club System + Agent System  
@@ -15,7 +12,7 @@
 💰 Launch your poker business today  
 💰 Start earning with your own poker platform  
 
-## 🎥 Live Demo | 演示 | 演示
+## 🎥 Live Demo | 演示
 
 Watch real gameplay below 👇  
 查看真实游戏演示 👇  
@@ -70,26 +67,16 @@ Watch real gameplay below 👇
 
 ✔ 稳定成熟  
 ✔ 真实多人架构  
-✔ 可商业化  
-✔ 支持定制  
+✔ 可二次开发  
 
-## 💰 Commercial Version | 商业版本 | 商業版本
 
-🚀 Full version available with advanced features
-🚀 提供完整版（更多功能）
-🚀 提供完整商業版本
 
-✔ Full backend system
-✔ Deployment support
-✔ Custom feature development
-✔ Long-term support
 ---
 ## 💼 👉 CONTACT NOW（最重要）
-👉 Get Demo / Full Version / Price
-👉 获取演示 / 完整版 / 报价
-👉 獲取演示 / 完整版 / 報價
 
-📲 Telegram: @xuzongbin001
+
+- **Telegram**：@xuzongbin001  
+- **Email**：masterai918@gmail.com
 
 
 
