@@ -1,6 +1,8 @@
-# 🃏  德州扑克完整解决方案 |德州私人局| 德州源碼|德州撲克|德州俱樂部|德州撲克完整解決方案 |德州游戏源码|Mã nguồn Poker |Texas Holdem Poker Complete Solution  
+# 🃏  德州扑克完整解决方案 |德州源碼|德州撲克|德州俱樂部||Mã nguồn Poker |Texas Holdem Poker Complete Solution  
 
-
+[![Language](https://img.shields.io/badge/language-C%2B%2B-00599c?logo=cplusplus)](https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro)
+[![Stars](https://img.shields.io/github/stars/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro?style=flat)](https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/stargazers)
+[![License](https://img.shields.io/github/license/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro)](./LICENSE)
 🔥 Online Multiplayer Poker System  
 🔥 Club System + Agent System  
 🔥 Real-Time Gameplay + Full Source Code  
@@ -70,9 +72,17 @@ Watch real gameplay below 👇
 ✔ 可二次开发  
 
 
+## 文档导航
 
+- [多人德州扑克源码说明](./docs/multiplayer-poker-source-code.md)
+- [服务端架构](./docs/server-architecture.md)
+- [构建与 Unity 检查](./docs/build-guide.md)
+- [机器人与自动操作](./docs/poker-bot-auto-actions.md)
+- [实时房间消息](./docs/room-message-flow.md)
+- [GM、数据库、安全与合规](./docs/security-compliance.md)
+- [常见问题](./docs/faq.md)
 ---
-## 💼 👉 CONTACT NOW（最重要）
+## 💼 👉 问题反馈与交流
 
 
 - **Telegram**：@xuzongbin001  
