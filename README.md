@@ -7,8 +7,7 @@
 🔥 Club System + Agent System  
 🔥 Real-Time Gameplay + Full Source Code  
 
-👉 🚀 Live Demo Available  
-👉 📩 Contact Now for Full Version  
+
 💰 Launch your own poker business  
 💰 Start your poker platform today  
 💰 Launch your poker business today  
