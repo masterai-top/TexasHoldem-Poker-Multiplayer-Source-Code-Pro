@@ -5,40 +5,254 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Texas Holdem Poker Multiplayer Source Code Pro</title>
   <meta name="description" content="Texas Holdem poker multiplayer source code with real-time gameplay, poker club, agent system, private tables, tournaments, Unity client and C++ game server architecture.">
+  <meta name="keywords" content="Texas Holdem poker source code, Texas Holdem multiplayer source code, poker game source code, poker club source code, online poker game, Unity poker client, C++ poker server, poker tournament source code">
   <style>
-body{font-family:Arial,"Microsoft YaHei",sans-serif;margin:0;color:#161b22;background:#f6f8fa}
-header{background:#13233a;color:white;padding:48px 20px}
-main{max-width:1080px;margin:0 auto;padding:30px 20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
-.card{background:white;border:1px solid #d8dee4;border-radius:8px;padding:18px}
-a{color:#0969da}footer{padding:24px 20px;text-align:center;color:#57606a}
-</style>
+    :root {
+      --bg: #f6f8fa;
+      --panel: #ffffff;
+      --ink: #161b22;
+      --muted: #57606a;
+      --line: #d8dee4;
+      --blue: #0969da;
+      --navy: #13233a;
+      --gold: #b88721;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 52px 20px 42px;
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(30px, 5vw, 52px);
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 38px 0 12px;
+      font-size: 28px;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    p { margin: 0 0 14px; }
+
+    .lead {
+      max-width: 860px;
+      color: #dbeafe;
+      font-size: 18px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 8px;
+      color: #fff;
+      background: var(--blue);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button.secondary {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,.55);
+    }
+
+    main {
+      padding: 30px 20px 44px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+
+    .tag {
+      display: inline-block;
+      margin: 4px 6px 4px 0;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: #fff8e6;
+      border: 1px solid #f0d58a;
+      color: #6f4f00;
+      font-size: 14px;
+    }
+
+    .screenshots {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .screenshot-card {
+      padding: 12px;
+    }
+
+    .screenshot-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .muted { color: var(--muted); }
+
+    footer {
+      padding: 28px 20px;
+      text-align: center;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      background: #fff;
+    }
+
+    a { color: var(--blue); }
+  </style>
 </head>
 <body>
-  <header><h1>Texas Holdem Poker Multiplayer Source Code Pro</h1><p>Texas Holdem poker multiplayer source code, club system, agent system, tournaments and C++ game server architecture.</p></header>
-<section>
-  <h2>Product Screenshots</h2>
-
-  <div class="grid">
-    <div class="card">
-      <h3>Texas Holdem Lobby</h3>
-      <img src="assets/screenshots/003 (3).jpg" alt="Texas Holdem Poker Multiplayer Source Code Lobby Screenshot" style="width:100%;border-radius:8px;border:1px solid #d8dee4;">
+  <header>
+    <div class="wrap">
+      <h1>Texas Holdem Poker Multiplayer Source Code Pro</h1>
+      <p class="lead">Commercial-oriented Texas Holdem poker multiplayer source code with Unity client direction, C++ game server architecture, private tables, poker club, agent system, tournaments, hand records and operations dashboard integration.</p>
+      <div class="actions">
+        <a class="button" href="https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro">View GitHub Repository</a>
+        <a class="button secondary" href="features.html">Features</a>
+        <a class="button secondary" href="architecture.html">Architecture</a>
+        <a class="button secondary" href="deployment.html">Deployment</a>
+      </div>
     </div>
+  </header>
 
-    <div class="card">
-      <h3>Multiplayer Poker Table</h3>
-      <img src="assets/screenshots/003 (2).jpg" alt="Texas Holdem Multiplayer Poker Table Screenshot" style="width:100%;border-radius:8px;border:1px solid #d8dee4;">
+  <main>
+    <div class="wrap">
+      <section>
+        <h2>Core Modules</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Real-Time Poker</h3>
+            <p>Multiplayer Texas Holdem rooms, fast action flow, timers, settlement and synchronization.</p>
+          </div>
+          <div class="card">
+            <h3>Club System</h3>
+            <p>Private tables, friends rooms, poker clubs, unions, agent hierarchy and member management.</p>
+          </div>
+          <div class="card">
+            <h3>Tournaments</h3>
+            <p>MTT, SNG, leaderboard, match configuration, reward design and game records.</p>
+          </div>
+          <div class="card">
+            <h3>C++ Game Server</h3>
+            <p>High-performance game server, login service, GM service, protocol files and settlement logic.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Product Screenshots</h2>
+        <p class="muted">Screenshots are loaded from <code>docs/Assets/screenshots/</code>. Because this page is already inside <code>docs/</code>, the correct relative path is <code>Assets/screenshots/filename.jpg</code>.</p>
+
+        <div class="grid screenshots">
+          <div class="card screenshot-card">
+            <h3>Poker Lobby Screenshot 1</h3>
+            <img src="Assets/screenshots/003%20(1).jpg" alt="Texas Holdem Poker Multiplayer Source Code Pro Poker Lobby Screenshot 1" loading="lazy">
+          </div>
+          <div class="card screenshot-card">
+            <h3>Poker Lobby Screenshot 2</h3>
+            <img src="Assets/screenshots/003%20(2).jpg" alt="Texas Holdem Poker Multiplayer Source Code Pro Poker Lobby Screenshot 2" loading="lazy">
+          </div>
+          <div class="card screenshot-card">
+            <h3>Poker Lobby Screenshot 3</h3>
+            <img src="Assets/screenshots/003%20(3).jpg" alt="Texas Holdem Poker Multiplayer Source Code Pro Poker Lobby Screenshot 3" loading="lazy">
+          </div>
+          <div class="card screenshot-card">
+            <h3>Poker Lobby Screenshot 4</h3>
+            <img src="Assets/screenshots/003%20(4).jpg" alt="Texas Holdem Poker Multiplayer Source Code Pro Poker Lobby Screenshot 4" loading="lazy">
+          </div>
+          <div class="card screenshot-card">
+            <h3>Chat System</h3>
+            <img src="Assets/screenshots/chat.jpg" alt="Texas Holdem Poker Multiplayer Source Code Pro Chat System Screenshot" loading="lazy">
+          </div>
+          <div class="card screenshot-card">
+            <h3>Hand History</h3>
+            <img src="Assets/screenshots/paipu.jpg" alt="Texas Holdem Poker Multiplayer Source Code Pro Hand History Screenshot" loading="lazy">
+          </div>
+          <div class="card screenshot-card">
+            <h3>Poker Table 2</h3>
+            <img src="Assets/screenshots/paizhuo2.jpg" alt="Texas Holdem Poker Multiplayer Source Code Pro Poker Table Screenshot" loading="lazy">
+          </div>
+          <div class="card screenshot-card">
+            <h3>Game Record</h3>
+            <img src="Assets/screenshots/paizjio.jpg" alt="Texas Holdem Poker Multiplayer Source Code Pro Game Record Screenshot" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>SEO Keywords</h2>
+        <p>
+          <span class="tag">Texas Holdem poker source code</span>
+          <span class="tag">Texas Holdem multiplayer source code</span>
+          <span class="tag">poker club source code</span>
+          <span class="tag">online poker game</span>
+          <span class="tag">C++ poker server</span>
+          <span class="tag">Unity poker client</span>
+          <span class="tag">poker tournament source code</span>
+          <span class="tag">multiplayer card game server</span>
+        </p>
+      </section>
+
+      <section>
+        <h2>Documentation</h2>
+        <div class="grid">
+          <div class="card"><h3>Features</h3><p><a href="features.html">Poker modes, club, agent, tournament and operations modules</a></p></div>
+          <div class="card"><h3>Architecture</h3><p><a href="architecture.html">Unity client, C++ game server, admin and data structure</a></p></div>
+          <div class="card"><h3>Deployment</h3><p><a href="deployment.html">GitHub Pages, private configuration and deployment checklist</a></p></div>
+          <div class="card"><h3>Responsible Use</h3><p><a href="responsible-use.html">Compliance, age rating and responsible gaming notes</a></p></div>
+        </div>
+      </section>
     </div>
-  </div>
-</section> 
-  
-  <main><section class="grid">
-<div class="card"><h2>Real-Time Poker</h2><p>Multiplayer Texas Holdem rooms, fast action flow, settlement and synchronization.</p></div>
-<div class="card"><h2>Club System</h2><p>Private tables, friends rooms, poker clubs, unions and agent hierarchy.</p></div>
-<div class="card"><h2>Tournaments</h2><p>MTT, SNG, leaderboards, match configuration and game records.</p></div>
-<div class="card"><h2>C++ Server</h2><p>High-performance game server, login service, GM service and protocol-driven backend structure.</p></div>
-</section>
-<p><a href="features.html">Features</a> | <a href="architecture.html">Architecture</a> | <a href="deployment.html">Deployment</a> | <a href="responsible-use.html">Responsible Use</a></p></main>
-  <footer>GitHub: <a href="https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro">TexasHoldem-Poker-Multiplayer-Source-Code-Pro</a> | Telegram @xuzongbin001 | masterai918@gmail.com</footer>
+  </main>
+
+  <footer>
+    GitHub: <a href="https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro">TexasHoldem-Poker-Multiplayer-Source-Code-Pro</a>
+    | Telegram @xuzongbin001 | masterai918@gmail.com
+  </footer>
 </body>
 </html>
