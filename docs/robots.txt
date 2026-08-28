@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/sitemap.xml

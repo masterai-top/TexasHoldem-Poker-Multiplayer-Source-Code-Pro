@@ -1,4 +1,8 @@
 # Contributing
 
-欢迎提交编译修复、牌局与机器人测试、协议文档和安全改进。Issue 请提供操作系统、编译器、Tars 版本、复现步骤和完整错误信息。请勿提交凭据、生产地址、私人数据或未授权资源。
+## Guidelines
 
+- Do not commit production secrets, user data, payment keys, admin accounts, risk-control parameters or private operations data.
+- Keep examples desensitized and easy to understand.
+- Document poker rule, settlement, tournament, club and agent assumptions when changing logic.
+- Add tests for hand evaluation, settlement, room synchronization, tournament flow and API changes.
