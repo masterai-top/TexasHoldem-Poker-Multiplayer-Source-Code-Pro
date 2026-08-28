@@ -1,4 +1,5 @@
 # 🃏  德州扑克完整解决方案 |德州源碼|德州撲克|德州俱樂部||Mã nguồn Poker |Texas Holdem Poker Complete Solution  
+[简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
 
 [![Language](https://img.shields.io/badge/language-C%2B%2B-00599c?logo=cplusplus)](https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro)
 [![Stars](https://img.shields.io/github/stars/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro?style=flat)](https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/stargazers)
@@ -12,7 +13,54 @@
 💰 Start your poker platform today  
 💰 Launch your poker business today  
 💰 Start earning with your own poker platform  
+本项目是一套面向商业化部署和二次开发的德州扑克多人对战源码，覆盖实时对局、私人局、俱乐部、联盟、代理体系、比赛玩法、保险、战绩、后台管理和高性能 C++ 服务端架构，适合德州源码、德扑俱乐部、WPK 类产品、线上扑克平台和完整棋牌解决方案评估。
 
+## ✨ 核心亮点
+
+| 特性 | 说明 |
+| :--- | :--- |
+| 🎮 **10+玩法** | 经典德州、AOF、短牌、奥马哈、大菠萝、MTT、SNG、德州牛仔 |
+| 👥 **社交系统** | 俱乐部、联盟、朋友局（私人局）、语音视频聊天 |
+| 🏗️ **成熟代码** | 真实运营2年，刚停服，代码稳定无bug |
+| 📱 **双端支持** | Unity客户端 → iOS + Android |
+| ⚙️ **高性能后端** | C++编写，支持高并发 |
+
+## 🎯 功能清单
+✅ 私人局/朋友局 ✅ 俱乐部系统 ✅ 大联盟模式
+✅ 语音视频聊天 ✅ 保险系统 ✅ 战绩统计
+✅ 多桌锦标赛MTT ✅ 坐满即玩SNG ✅ 机器人陪玩
+✅ 实时语音 ✅ 礼物系统 ✅ 后台管理
+
+
+## ✨ Key Features 
+
+- 🧑‍🤝‍🧑 Multiplayer Poker（多人对战）  
+- 🏆 Club System（俱乐部系统）  
+- 🧩 Agent System（代理体系）  
+- ⚡ Real-time Gameplay（实时对局）  
+- 🌐 Online Server（在线服务器）  
+- 🔧 Customizable（可二次开发）
+
+## 🚀 What You Get | 你将获得 | 你將獲得,支持5种语言的德州
+
+### 🇺🇸 English
+- Full Texas Holdem poker system  
+- Multiplayer real-time gameplay  
+- Club system + agent system  
+- Ready for deployment & customization  
+
+### 🇨🇳 简体中文
+- 完整德州扑克系统源码  
+- 支持多人实时对战  
+- 俱乐部 + 代理体系  
+- 可直接部署或二次开发  
+
+### 🇹🇼 繁體中文
+- 完整德州撲克系統源碼  
+- 支援多人即時對戰  
+- 俱樂部 + 代理系統  
+- 可部署與客製化
+- 
 ## 🎥 Live Demo | 演示
 
 Watch real gameplay below 👇  
@@ -37,25 +85,7 @@ Watch real gameplay below 👇
 
 ---
 
-## 🚀 What You Get | 你将获得 | 你將獲得,支持5种语言的德州
 
-### 🇺🇸 English
-- Full Texas Holdem poker system  
-- Multiplayer real-time gameplay  
-- Club system + agent system  
-- Ready for deployment & customization  
-
-### 🇨🇳 简体中文
-- 完整德州扑克系统源码  
-- 支持多人实时对战  
-- 俱乐部 + 代理体系  
-- 可直接部署或二次开发  
-
-### 🇹🇼 繁體中文
-- 完整德州撲克系統源碼  
-- 支援多人即時對戰  
-- 俱樂部 + 代理系統  
-- 可部署與客製化  
 
 ---
 
@@ -89,31 +119,7 @@ Watch real gameplay below 👇
 
 
 
-## ✨ 核心亮点
 
-| 特性 | 说明 |
-| :--- | :--- |
-| 🎮 **10+玩法** | 经典德州、AOF、短牌、奥马哈、大菠萝、MTT、SNG、德州牛仔 |
-| 👥 **社交系统** | 俱乐部、联盟、朋友局（私人局）、语音视频聊天 |
-| 🏗️ **成熟代码** | 真实运营2年，刚停服，代码稳定无bug |
-| 📱 **双端支持** | Unity客户端 → iOS + Android |
-| ⚙️ **高性能后端** | C++编写，支持高并发 |
-
-## 🎯 功能清单
-✅ 私人局/朋友局 ✅ 俱乐部系统 ✅ 大联盟模式
-✅ 语音视频聊天 ✅ 保险系统 ✅ 战绩统计
-✅ 多桌锦标赛MTT ✅ 坐满即玩SNG ✅ 机器人陪玩
-✅ 实时语音 ✅ 礼物系统 ✅ 后台管理
-
-
-## ✨ Key Features 
-
-- 🧑‍🤝‍🧑 Multiplayer Poker（多人对战）  
-- 🏆 Club System（俱乐部系统）  
-- 🧩 Agent System（代理体系）  
-- ⚡ Real-time Gameplay（实时对局）  
-- 🌐 Online Server（在线服务器）  
-- 🔧 Customizable（可二次开发）  
 ![Stars](https://img.shields.io/github/stars/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro)
 ## 📈 Use Cases
