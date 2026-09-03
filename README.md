@@ -1,5 +1,6 @@
-# 🃏  德州扑克完整解决方案 |德州源碼|德州撲克|德州俱樂部||Mã nguồn Poker |Texas Holdem Poker Complete Solution  
-[简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+
+# 多人实时德州扑克俱乐部|德州源碼|德州撲克
 
 [![Language](https://img.shields.io/badge/language-C%2B%2B-00599c?logo=cplusplus)](https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro)
 [![Stars](https://img.shields.io/github/stars/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro?style=flat)](https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/stargazers)
@@ -15,7 +16,9 @@
 💰 Start earning with your own poker platform  
 本项目是一套面向商业化部署和二次开发的德州扑克多人对战源码，覆盖实时对局、私人局、俱乐部、联盟、代理体系、比赛玩法、保险、战绩、后台管理和高性能 C++ 服务端架构，适合德州源码、德扑俱乐部、WPK 类产品、线上扑克平台和完整棋牌解决方案评估。
 
+
 ## ✨ 核心亮点
+
 
 | 特性 | 说明 |
 | :--- | :--- |
@@ -23,7 +26,8 @@
 | 👥 **社交系统** | 俱乐部、联盟、朋友局（私人局）、语音视频聊天 |
 | 🏗️ **成熟代码** | 真实运营2年，刚停服，代码稳定无bug |
 | 📱 **双端支持** | Unity客户端 → iOS + Android |
-| ⚙️ **高性能后端** | C++编写，支持高并发 |
+| ⚙️ **高性能后端** | C++编写，支持并发能力需以公开测试结果验证 |
+
 
 ## 🎯 功能清单
 ✅ 私人局/朋友局 ✅ 俱乐部系统 ✅ 大联盟模式
@@ -34,6 +38,7 @@
 
 ## ✨ Key Features 
 
+
 - 🧑‍🤝‍🧑 Multiplayer Poker（多人对战）  
 - 🏆 Club System（俱乐部系统）  
 - 🧩 Agent System（代理体系）  
@@ -41,7 +46,9 @@
 - 🌐 Online Server（在线服务器）  
 - 🔧 Customizable（可二次开发）
 
+
 ## 🚀 What You Get | 你将获得 | 你將獲得,支持5种语言的德州
+
 
 ### 🇺🇸 English
 - Full Texas Holdem poker system  
@@ -49,11 +56,13 @@
 - Club system + agent system  
 - Ready for deployment & customization  
 
+
 ### 🇨🇳 简体中文
 - 完整德州扑克系统源码  
 - 支持多人实时对战  
 - 俱乐部 + 代理体系  
 - 可直接部署或二次开发  
+
 
 ### 🇹🇼 繁體中文
 - 完整德州撲克系統源碼  
@@ -63,9 +72,11 @@
 - 
 ## 🎥 Live Demo | 演示
 
+
 Watch real gameplay below 👇  
 查看真实游戏演示 👇  
  
+
 
 ![微信图片_20241029191811 - 副本](https://github.com/user-attachments/assets/a2a7d001-c315-4e49-841d-f19b847dab9c) 
  ![微信图片_20250515120021](https://github.com/user-attachments/assets/fad9e0fd-6eb9-441d-8391-d8ed795b9a25)
@@ -83,18 +94,21 @@ Watch real gameplay below 👇
 ![微信图片_20250515114608](https://github.com/user-attachments/assets/de0e1470-3ad2-4c6f-a00d-d87e6ba7d3f8)
 ![微信图片_20250515114530](https://github.com/user-attachments/assets/58b0634b-b259-4c02-8fae-e429d22dd2b0)
 
----
-
-
 
 ---
+
+
+---
+
 
 ## 💼 Why This Project | 为什么选这个 | 為什麼選擇
+
 
 ✔ Stable & tested system  
 ✔ Real multiplayer architecture  
 ✔ Suitable for commercial use  
 ✔ Flexible customization  
+
 
 ✔ 稳定成熟  
 ✔ 真实多人架构  
@@ -102,6 +116,7 @@ Watch real gameplay below 👇
 
 
 ## 文档导航
+
 
 - [多人德州扑克源码说明](./docs/multiplayer-poker-source-code.md)
 - [服务端架构](./docs/server-architecture.md)
@@ -118,20 +133,11 @@ Watch real gameplay below 👇
 - **Email**：masterai918@gmail.com
 
 
-
-
 ![Stars](https://img.shields.io/github/stars/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro?style=social)
 ![Last Commit](https://img.shields.io/github/last-commit/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro)
 ## 📈 Use Cases
 
+
 - Build poker platform  
 - Game development  
-- Commercial deployment  
-
-
-
-
-
-
-
-
+- Commercial deployment
