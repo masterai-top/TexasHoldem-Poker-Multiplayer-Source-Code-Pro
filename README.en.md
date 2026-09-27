@@ -55,6 +55,5 @@ Product material also references Classic Holdem, AOF, Short Deck, Omaha, Pineapp
 
 ## Scope, license and brand statement
 
-The public repository verifies the listed files and screenshots. It does not establish a bug-free product, immediate production readiness, a complete public admin console or a specific concurrency level. Commercial use is subject to the separate commercial-license requirement in LICENSE. WPK is a third-party brand; this project is a technical reference for a similar product category and has no official affiliation with WPK.
-
+The public repository verifies the listed files and screenshots. It does not establish a bug-free product, immediate production readiness, a complete public admin console or a specific concurrency level. Commercial use is subject to the separate commercial-license requirement in LICENSE. 
 Telegram: @xuzongbin001 · Email: masterai918@gmail.com
