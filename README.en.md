@@ -1,101 +1,72 @@
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# Real-Time Multiplayer Texas Holdem |Texas Holdem poker source code
+# Texas Holdem Poker Club, Private Table and Friend Game Source Code
 
-Texas Holdem Poker Multiplayer Source Code Pro is a commercial-oriented online poker platform source code project for real-time multiplayer Texas Holdem, private tables, poker clubs, unions, agent systems, tournaments, insurance, game records, operations dashboards and high-performance C++ game server architecture.
+[![C++](https://img.shields.io/badge/server-C%2B%2B-00599C)](https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro) [![Unity](https://img.shields.io/badge/client-Unity-222)](https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro) [![Stars](https://img.shields.io/github/stars/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro?style=social)](https://github.com/masterai-top/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/stargazers)
 
+This repository presents a public technical snapshot of a real-time multiplayer Texas Holdem club system. Product screenshots cover club creation, union membership, friend games, club credits, table play, MTT events and ticket registration. Verifiable code includes Unity project structure, C++/Tars login services, game processing, timers, automatic actions, room messaging, insurance, bots and database entry points.
 
-## Positioning
+## Product functions
 
+Club creation and approval, unions, invite-only friend/private tables, club credits, table play, profile, MTT registration and event presentation. Product materials also mention Classic Holdem, AOF, Short Deck, Omaha, Pineapple and SNG. Exact rules, client completeness and admin delivery scope require separate verification.
 
-- Texas Holdem poker source code and online poker game system
-- Multiplayer real-time poker gameplay
-- Poker club, union, private table and friends table modules
-- Agent system, admin dashboard and operational statistics
-- High-performance C++ poker game server with protocol/service structure
-- Unity client delivery path for iOS and Android
-- Suitable for commercial evaluation, customization and private deployment
+## Games and player flow
 
+A player creates or applies to join a club, passes approval, and can join a union or create an invite-only friend game. Tournament players review MTT conditions and register with a ticket. Host permissions, point settlement, insurance and rewards depend on deployment configuration.
 
-## Feature List
+## Verifiable technical structure
 
+`ProjectSettings/`, `Packages/`, `Scenes/` and `src/` establish Unity project material. `LoginProto.tars` and `LoginServantImp.cpp` cover login contracts and service code. `gameroot.cpp`, `Processor.cpp`, auto-action, timer, seating and room-message files provide server-flow entry points. `insure.h`, bot files and `DBOperator.cpp` cover insurance, robot logic and database access.
 
-- Classic Texas Holdem, AOF, Short Deck, Omaha, Pineapple and extended modes
-- Private tables, friends tables, club system, unions and agent hierarchy
-- MTT tournaments, SNG rooms, leaderboards and hand history statistics
-- Insurance, voice/video chat, gift system and poker bots
-- Admin management, member management, room configuration, operations data and risk-control settings
-- High-concurrency rooms, login service, GM service, protocol files and settlement logic
+## Product screenshots
 
+### 创建俱乐部
 
-## Suggested Structure
+![Product screenshot - 创建俱乐部](./Screenshots/%E5%88%9B%E5%BB%BA%E4%BF%B1%E4%B9%90%E9%83%A8.jpg)
 
+### 好友局
 
-```text
-client/                 # Unity client or demo project
-server/                 # C++ real-time poker game, login and GM services
-admin/                  # Operations dashboard, agent backend and configuration management
-database/               # Schema and migration notes
-config.example/         # Desensitized configuration examples
-docs/                   # GitHub Pages product and technical documentation
-scripts/                # Build, deployment and maintenance scripts
-tests/                  # Rules, settlement, API and risk-control tests
-.github/workflows/      # CI and GitHub Pages workflows
-```
+![Product screenshot - 好友局](./Screenshots/%E5%A5%BD%E5%8F%8B%E5%B1%80.jpg)
 
+### 申请加入俱乐部
 
-## Use Cases
+![Product screenshot - 申请加入俱乐部](./Screenshots/%E7%94%B3%E8%AF%B7%E5%8A%A0%E5%85%A5%E4%BF%B1%E4%B9%90%E9%83%A8.jpg)
 
+### 加入联盟
 
-- Build a Texas Holdem poker platform, poker club, private table or friends table system
-- Evaluate online poker, club-agent networks, tournament systems and complete poker solutions
-- Secondary development for Unity clients, C++ game servers and operations dashboards
-- Technical validation for poker platforms targeting Southeast Asia, Europe, North America and South America
+![Product screenshot - 加入联盟](./Screenshots/%E5%8A%A0%E5%85%A5%E8%81%94%E7%9B%9F.jpg)
 
+### 俱乐部币
 
-## Public Repository Scope
+![Product screenshot - 俱乐部币](./Screenshots/%E4%BF%B1%E4%B9%90%E9%83%A8%E5%B8%81.jpg)
 
+### 打牌房间
 
-The public repository should show product structure, selected source examples, screenshots and technical documentation. Do not publish real user data, payment secrets, admin accounts, production databases, private operations data, risk-control parameters, online configuration or unlicensed assets.
+![Product screenshot - 打牌房间](./Screenshots/%E6%89%93%E7%89%8C%E6%88%BF%E9%97%B4.jpg)
 
+### MTT 赛事
+
+![Product screenshot - MTT 赛事](./Screenshots/MTT%E8%B5%9B%E4%BA%8B.jpg)
+
+### MTT 门票报名
+
+![Product screenshot - MTT 门票报名](./Screenshots/MTT-%E6%8A%A5%E5%90%8D%EF%BC%88%E9%97%A8%E7%A5%A8%EF%BC%89.jpg)
+
+### 个人中心
+
+![Product screenshot - 个人中心](./Screenshots/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83.jpg)
+
+## Public scope and licensing
+
+The public repository establishes that the listed files and screenshots exist. It does not prove a bug-free system, immediate production readiness, a complete operations console or a specific concurrency level. Commercial use is subject to the separate commercial-license requirement in LICENSE. WPK is a third-party brand; this project is only a technical reference for a similar product category and has no official affiliation with WPK.
 
 ## Documentation
 
-
-- [Project Home](docs/index.html)
-- [Features](docs/features.html)
-- [Architecture](docs/architecture.html)
-- [Deployment](docs/deployment.html)
-- [Responsible Use](docs/responsible-use.html)
-
+- [Poker club source code](https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/en/poker-club-source-code.html)
+- [Private table and friend game](https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/en/private-table-friend-game.html)
+- [Multiplayer architecture](https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/en/multiplayer-poker-architecture.html)
+- [Tournament and club flow](https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/en/multiplayer-poker-architecture.html)
 
 ## Contact
 
-
-Telegram: `@xuzongbin001`  
-Email: `masterai918@gmail.com`
-## 🎥 Live Demo 
-
-
-Watch real gameplay below 👇  
-
-
-![微信图片_20241029191811 - 副本](https://github.com/user-attachments/assets/a2a7d001-c315-4e49-841d-f19b847dab9c) 
- ![微信图片_20250515120021](https://github.com/user-attachments/assets/fad9e0fd-6eb9-441d-8391-d8ed795b9a25)
-![微信图片_20250515120009](https://github.com/user-attachments/assets/cb5e7815-8d72-42e7-9844-d8fe0dd9d8aa)
-![微信图片_20250515115957](https://github.com/user-attachments/assets/92692a2d-4d8f-466a-9d43-94be7996f466)
-![微信图片_20250515115943](https://github.com/user-attachments/assets/cf0897aa-6357-4a00-8b3d-77752e1dfdbb)
- ![微信图片_20250515115934](https://github.com/user-attachments/assets/26b6636a-9fdd-4e42-84f0-2e98d47e2c5d)
-![微信图片_20250515115921](https://github.com/user-attachments/assets/a9a66afc-dfcd-4be7-a469-a8400d393db6)
-![微信图片_20250515115912](https://github.com/user-attachments/assets/8bb53f68-86c6-4c9e-9c74-9d58105d0e10)
-![微信图片_20250515115859](https://github.com/user-attachments/assets/90910fbe-dce8-491e-890f-d2f88853720a)
-![微信图片_20250515115847](https://github.com/user-attachments/assets/43681686-b37e-49e8-999b-c90f85232858)
-
-
-![微信图片_20250515115834](https://github.com/user-attachments/assets/03115f7a-5254-456a-a29e-8b7cc56103a5)
-![微信图片_20250515114608](https://github.com/user-attachments/assets/de0e1470-3ad2-4c6f-a00d-d87e6ba7d3f8)
-![微信图片_20250515114530](https://github.com/user-attachments/assets/58b0634b-b259-4c02-8fae-e429d22dd2b0)
-## License
-
-
-For technical evaluation, business communication and authorized cooperation only. See the repository license files for details.
+Telegram: @xuzongbin001 · Email: masterai918@gmail.com

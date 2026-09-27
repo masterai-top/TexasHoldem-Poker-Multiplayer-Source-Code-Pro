@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/</loc><priority>1.0</priority></url>
-  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/features.html</loc><priority>0.8</priority></url>
-  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/architecture.html</loc><priority>0.7</priority></url>
-  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/deployment.html</loc><priority>0.7</priority></url>
-  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/responsible-use.html</loc><priority>0.6</priority></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/zh-cn/poker-club-source-code.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/zh-cn/private-poker-friend-game.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/zh-cn/multiplayer-poker-source-code.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/zh-cn/club-tournament-flow.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/zh-tw/poker-club-source-code.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/zh-tw/private-poker-friend-game.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/zh-tw/multiplayer-poker-source-code.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/zh-tw/club-tournament-flow.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/en/poker-club-source-code.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/en/private-table-friend-game.html</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://masterai-top.github.io/TexasHoldem-Poker-Multiplayer-Source-Code-Pro/en/multiplayer-poker-architecture.html</loc><lastmod>2026-09-27</lastmod></url>
 </urlset>
